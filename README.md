@@ -35,7 +35,29 @@ The task is to:
 
 
 ## Repository Structure
-N/A
+├── Code/
+│   └── main.ipynb                 # Full pipeline and all code
+│
+├── Data/
+│   ├── *.csv                      # Provided training and testing data
+│   └── target_scaler.pkl          # Saved scaler for inference
+│
+├── Data/KaggleSubmission/
+│   └── *.csv                      # A few Kaggle submission files generated
+│
+├── Models/
+│   ├── *_model.pkl                # Saved full-feature models
+│   └── *_best_params.pkl          # Saved parameters of each model
+│
+├── Models/Sparse/
+│   ├── *_model.pkl                # Saved full-feature models
+│   └── *_best_params.pkl          # Saved parameters of each model
+│
+├── requirements.txt               # Project library requirements
+│
+└── README.md                      # Project documentation
+
+
 ## Academic Integrity
 N/A
 ## Included Files
